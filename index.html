@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diron Jesurajan | Portfolio</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background Elements -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header -->
+  <header id="header" class="site-header">
+    <div class="container nav-container">
+      <div class="logo">DJ.</div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="cvBtn" class="btn-outline">
+          <i class="fas fa-download"></i>
+          CV
+        </button>
+        <button id="menuToggle" class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="section hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-kicker">Software Engineering Student</p>
+        <h1 class="hero-title">
+          Diron <span class="gradient-text">Jesurajan</span>
+        </h1>
+        <p class="hero-subtitle">
+          I build modern, user-focused software solutions while developing strong foundations
+          in SDLC, service computing, web design, and project management.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">
+            <i class="fas fa-paper-plane"></i>
+            Contact Me
+          </a>
+          <button id="viewProjects" class="btn-ghost">
+            <i class="fas fa-eye"></i>
+            View Projects
+          </button>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-item">
+            <span class="meta-title">Experience</span>
+            <span class="meta-value">3+ Years</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-title">Projects</span>
+            <span class="meta-value">10+ Completed</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrapper">
+        <div class="hero-photo-ring">
+          <img src="diron pic.jpg" alt="Diron Jesurajan" class="hero-photo" />
+        </div>
+        <div class="hero-badge hero-badge-top">
+          <span class="badge-main">IT & Software</span>
+          <span class="badge-sub">Support & Development</span>
+        </div>
+        <div class="hero-badge hero-badge-bottom">
+          <span class="badge-main">Available</span>
+          <span class="badge-sub">Remote & On-site</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+
+      <div class="card about-card">
+        <div class="about-main">
+          <p>
+            I am a Software Engineering student at BCAS Campus, developing expertise in the
+            complete Software Development Life Cycle, service computing, web design, and project
+            management. I enjoy connecting technical problem-solving with real business value.
+          </p>
+          <p>
+            I have hands-on experience in IT support, invoicing/ERP systems, and front-end web
+            development from roles in SMEs. My goal is to fully transition into IT, combining
+            my technical skills with my background in retail, e-commerce, and customer-focused work.
+          </p>
+        </div>
+        <div class="about-grid">
+          <div class="about-box">
+            <div class="about-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Education</h3>
+            <p class="about-subtitle">
+              Computing and Systems Development | B-TECH (HND)
+            </p>
+            <p class="about-detail">
+              BCAS Campus | Solent University<br />
+              <span>Jan 2019 – Feb 2022</span>
+            </p>
+          </div>
+
+          <div class="about-box">
+            <div class="about-icon"><i class="fas fa-language"></i></div>
+            <h3>Languages</h3>
+            <ul class="about-list">
+              <li>English – Fluent</li>
+              <li>Sinhala – Fluent</li>
+              <li>Tamil – Fluent</li>
+            </ul>
+          </div>
+
+          <div class="about-box">
+            <div class="about-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <h3>Location</h3>
+            <p class="about-detail">
+              H21, Grandpass, Colombo 14, Sri Lanka<br />
+              <span>Open to Remote Opportunities</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">M Tec Lanka (Pvt) LTD</h3>
+            <p class="timeline-role">
+              IT Support Executive – Computer Hardware & Invoicing Software Support
+            </p>
+            <p class="timeline-text">
+              Provided end‑to‑end technical support for computer hardware, including installation,
+              troubleshooting, and preventive maintenance. Installed, configured, and maintained
+              invoicing and billing software (ERP – Syssoft), ensuring minimal downtime for clients.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">Fexten Solutions (Pvt) LTD</h3>
+            <p class="timeline-role">Software & IT Support Associate</p>
+            <p class="timeline-text">
+              Contributed to software solutions for SMEs to manage cash flow, inventory, HR,
+              accounting, and client relations. Supported web front-end development and IT support,
+              focusing on usability and reliable deployment.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">ielecro.lk</h3>
+            <p class="timeline-role">E‑commerce Operations</p>
+            <p class="timeline-text">
+              Managed customer inquiries, orders, and deliveries, ensuring a seamless shopping
+              experience. Gained hands-on experience in e-commerce operations, social media
+              marketing, and day‑to‑day business processes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+
+      <div class="skills-grid">
+        <div class="card">
+          <h3 class="card-title">Programming & Development</h3>
+
+          <div class="skill">
+            <div class="skill-header">
+              <span>Python, Java, C++</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <span>HTML, CSS, JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <span>Web Application Development</span>
+              <span>88%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 88%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="card-title">Tools & Platforms</h3>
+
+          <div class="skill">
+            <div class="skill-header">
+              <span>Microsoft Office</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 95%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <span>Google Workspace</span>
+              <span>92%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 92%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-header">
+              <span>Graphic Design (Canva, Photoshop)</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card extra-skills">
+        <h3 class="card-title">Additional Skills</h3>
+        <div class="tag-list">
+          <span class="tag">IT Support & Troubleshooting</span>
+          <span class="tag">Project Management</span>
+          <span class="tag">E‑commerce Operations</span>
+          <span class="tag">Software Development Life Cycle</span>
+          <span class="tag">Service Computing</span>
+          <span class="tag">Web Design</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-tag">Web App</div>
+          <h3 class="project-title">SME Inventory & Billing System</h3>
+          <p class="project-text">
+            A web-based tool to manage inventory, billing, and daily sales for small businesses.
+            Designed to be simple for non-technical staff while still providing clear reporting.
+          </p>
+          <ul class="project-meta">
+            <li>HTML, CSS, JavaScript</li>
+            <li>Role: Front-end, UI design, user support</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Service Computing</div>
+          <h3 class="project-title">Service Booking Portal</h3>
+          <p class="project-text">
+            University project that allows users to create accounts, request services, and track
+            status. Focused on modular service design and clean REST APIs.
+          </p>
+          <ul class="project-meta">
+            <li>Java, REST APIs, MySQL</li>
+            <li>Role: Back-end logic & architecture</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Portfolio</div>
+          <h3 class="project-title">Premium Personal Portfolio</h3>
+          <p class="project-text">
+            A premium, mobile-first portfolio (this site) showcasing my skills, work experience,
+            and projects with a glassmorphism-inspired design.
+          </p>
+          <ul class="project-meta">
+            <li>HTML, CSS, JavaScript</li>
+            <li>Role: End-to-end design & build</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">E‑commerce</div>
+          <h3 class="project-title">ielecro.lk Enhancements</h3>
+          <p class="project-text">
+            Supported improvements to product listing flows, order tracking, and customer
+            communication to make the online shopping experience smoother.
+          </p>
+          <ul class="project-meta">
+            <li>E‑commerce workflows, customer support</li>
+            <li>Role: Operations & UX feedback</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+
+      <div class="contact-grid">
+        <div class="contact-info card">
+          <h3 class="card-title">Contact Details</h3>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <p class="contact-label">Phone</p>
+              <p class="contact-value">+94 77 041 8691</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">
+                <a href="mailto:dironricker@gmail.com" class="contact-link">
+                  dironricker@gmail.com
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <p class="contact-label">Location</p>
+              <p class="contact-value">Colombo 14, Sri Lanka</p>
+            </div>
+          </div>
+
+          <h3 class="card-title" style="margin-top: 1.5rem;">Focus Areas</h3>
+          <ul class="about-list">
+            <li>Modern, responsive front-end development</li>
+            <li>IT support & ERP / invoicing systems</li>
+            <li>Small business digital transformation</li>
+          </ul>
+
+          <h3 class="card-title" style="margin-top: 1.5rem;">Highlight Projects</h3>
+          <ul class="about-list">
+            <li>POS-style billing UI for SMEs (Syssoft based)</li>
+            <li>Service booking portal for university project</li>
+            <li>Brand-focused e-commerce landing pages</li>
+          </ul>
+        </div>
+
+        <div class="contact-form card">
+          <h3 class="card-title">Send a Message</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input id="name" type="text" required placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" required placeholder="you@example.com" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input id="subject" type="text" placeholder="How can I help you?" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" required placeholder="Write your message here..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width">
+              <i class="fas fa-paper-plane"></i>
+              Send Message
+            </button>
+            <p id="formStatus" class="form-status"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Diron Jesurajan</div>
+        <p>Software Engineering Student & Developer</p>
+        <p class="footer-email">
+          <a href="mailto:dironricker@gmail.com">dironricker@gmail.com</a>
+        </p>
+        <p class="footer-copy">&copy; <span id="year"></span> All rights reserved.</p>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="LinkedIn" class="social-btn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" aria-label="GitHub" class="social-btn">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" aria-label="Twitter" class="social-btn">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CV Modal -->
+  <div id="cvModal" class="modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content card">
+      <button id="closeModal" class="modal-close">
+        <i class="fas fa-times"></i>
+      </button>
+      <h2 class="modal-title gradient-text">Download CV</h2>
+      <p class="modal-text">Choose your preferred format to download or view my CV.</p>
+
+      <div class="modal-actions">
+        <a href="Diron Jesurajan CV .pdf" download class="modal-btn">
+          <div class="modal-icon pdf">
+            <i class="fas fa-file-pdf"></i>
+          </div>
+          <div class="modal-info">
+            <span class="modal-main">PDF Format</span>
+            <span class="modal-sub">Standard printable CV</span>
+          </div>
+          <i class="fas fa-download modal-arrow"></i>
+        </a>
+
+        <a href="Diron Jesurajan CV .pdf" target="_blank" class="modal-btn">
+          <div class="modal-icon view">
+            <i class="fas fa-eye"></i>
+          </div>
+          <div class="modal-info">
+            <span class="modal-main">View Online</span>
+            <span class="modal-sub">Open in new tab</span>
+          </div>
+          <i class="fas fa-external-link-alt modal-arrow"></i>
+        </a>
+      </div>
+
+      <p class="modal-note">
+        My CV includes detailed work experience, education, skills, and projects.
+      </p>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
